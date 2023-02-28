@@ -41,16 +41,16 @@ const routes: Routes = [
     path: '',
     children: [{
         path: '',
-        component: CapexbudgethomeComponent
-        //component: MyportalhomeComponent
+        //component: CapexbudgethomeComponent
+        component: MyportalhomeComponent
       },{
         path: 'db',
         component: CapexbudgethomeComponent
         //component: DashboardshomeComponent
       },{
         path: 'wf',
-        component: CapexbudgethomeComponent
-        //component: WorkflowshomeComponent
+        //component: CapexbudgethomeComponent
+        component: WorkflowshomeComponent
       }
     ]
   },  

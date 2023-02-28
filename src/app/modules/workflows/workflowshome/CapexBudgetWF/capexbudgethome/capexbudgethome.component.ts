@@ -696,7 +696,7 @@ export class CapexbudgethomeComponent implements OnInit {
           }
         
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';            
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';            
           }, 4000);
 
           break;
@@ -707,7 +707,7 @@ export class CapexbudgethomeComponent implements OnInit {
           }
           
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';
             //window.location.href = this.webAbsoluteUrl + '/SitePages/MyWFRequest.aspx';
           }, 4000);
 
@@ -719,7 +719,7 @@ export class CapexbudgethomeComponent implements OnInit {
           }
           
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';
             //window.location.href = this.webAbsoluteUrl + '/SitePages/MyWFRequest.aspx';
           }, 4000);
 
@@ -731,7 +731,7 @@ export class CapexbudgethomeComponent implements OnInit {
           }
           
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';
             //window.location.href = this.webAbsoluteUrl + '/SitePages/MyWFRequest.aspx';
           }, 4000);
 
@@ -745,7 +745,7 @@ export class CapexbudgethomeComponent implements OnInit {
           }
         
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';            
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';            
           }, 4000);
 
           break;
@@ -754,7 +754,7 @@ export class CapexbudgethomeComponent implements OnInit {
           this.createNotification("FeedbackSubmitted", 255, this.parsedRequestInfo.CapexBudgetProposal.Requestor.AdId, "", this.parsedRequestInfo.Title, "FeedbackSubmitted");
 
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';
             //window.location.href = this.webAbsoluteUrl + '/SitePages/MyWFRequest.aspx';
           }, 4000);
 
@@ -764,7 +764,7 @@ export class CapexbudgethomeComponent implements OnInit {
           this.createNotification("PickedUp", this.parsedRequestInfo.RequestorAdId, this.parsedRequestInfo.RnDLabTest.Requestor.EmployeeName, "Lab personnel", this.parsedRequestInfo.Title, "PickedUp");
 
           setTimeout(function () {
-            window.location.href = 'https://portal.bergerbd.com/_layouts/15/PendingApproval/PendingApproval.aspx';
+            window.location.href = 'https://portal.bergerbd.com/leaveauto/SitePages/pendingtasks.aspx';
             //window.location.href = this.webAbsoluteUrl + '/SitePages/MyWFRequest.aspx';
           }, 4000);
 
